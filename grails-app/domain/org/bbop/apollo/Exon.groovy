@@ -3,6 +3,8 @@ package org.bbop.apollo
 /**
  * NOTE: superclass is NOT region . . .
  */
+import groovy.transform.ToString
+@ToString 
 class Exon extends TranscriptRegion{
 
     static constraints = {

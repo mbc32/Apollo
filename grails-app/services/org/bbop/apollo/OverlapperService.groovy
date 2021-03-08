@@ -21,7 +21,13 @@ class OverlapperService implements Overlapper{
     boolean overlaps(Transcript transcript1, Transcript transcript2) {
         return checkForOverlap(transcript1,transcript2)
     }
-
+    
+    /*
+    @Override
+    boolean overlaps(){
+    	return 0;	
+    }
+     */
 
     boolean checkForOverlap(Transcript transcript, Gene gene) {
         long start = System.currentTimeMillis();
